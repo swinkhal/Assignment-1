@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 const SecondBlog = (props) => {
     
         const [comments, setComments] = useState([]);
@@ -18,7 +18,7 @@ const SecondBlog = (props) => {
         <div className="container">
         <h1>The future of AI?</h1>
         
-        <img src="https://www.priv.gc.ca/media/5716/synthetic-data.png" height='400' width='400'/>
+        <img src="https://www.priv.gc.ca/media/5716/synthetic-data.png" alt = " not available" height='400' width='400'/>
         <hr/>
         <p> 
             The future of artificial intelligence is difficult to predict with certainty, but it is expected to have a significant impact on various industries and aspects of society. Here are a few potential developments in the field of AI:
